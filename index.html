@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Data -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Charlie Merrill">
+  <title>Enthusiast Inc.</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar navbar-fixed-top">
+    <!-- Logo -->
+    <a href="#" class="navbar-brand">
+      <img class="logo" src="images/enthusiast.png" alt="Enthusiast Logo">
+    </a>
+
+    <!-- Right Navigation -->
+    <div class="navbar-right hidden-xs hidden-sm">
+      <a href="#" class="navbar-item navbar-link">SERVICES</a>
+      <a href="#" class="navbar-item navbar-link">PORTFOLIO</a>
+      <a href="#" class="navbar-item navbar-link">ABOUT US</a>
+      <a href="#" class="navbar-item navbar-link">CONTACT</a>
+    </div>
+
+    <!-- Dropdown appearing on mobile only -->
+    <div class="navbar-item hidden-md hidden-lg hidden-xl">
+      <div class="dropdown">
+        <p class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></p>
+        <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="jumbotron">
+    <video autoplay muted loop id="myVideo">
+      <source src="images/background.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1>Welcome to Enthusiast</h1>
+      <p class="hidden-xs hidden-sm">Strategy. Design. Mobile. Web. Print.</p>
+      <p class="hidden-xs hidden-sm">We've got the solution.</p>
+      <div class="jumbotron-buttons hidden-xs hidden-sm">
+        <div id="learn-more">
+          <h6>LEARN MORE</h6>
+        </div>
+        <div id="chat">
+          <h6>LET'S CHAT!</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-button-box hidden-md hidden-lg hidden-xl">
+    <div>
+      <div class="mobile-button" id="learn-more">
+        <h6>LEARN MORE</h6>
+      </div>
+      <div class="mobile-button" id="chat">
+        <h6>LET'S CHAT!</h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Panel -->
+  <div class="container-fluid info-panel">
+    <div class="col-xs-12 col-sm-3 info-item">
+      <img class="info-icon" src="images/lightbulb.gif" alt="Lightbulb">
+      <h4 class="info-title">Brand Strategy</h4>
+    </div>
+    <div class="col-xs-12 col-sm-3 info-item">
+      <img class="info-icon" src="images/paint.gif" alt="Paintbrush">
+      <h4 class="info-title">Design</h4>
+    </div>
+    <div class="col-xs-12 col-sm-3 info-item">
+      <img class="info-icon" src="images/globe.jpg" alt="Globe">
+      <h4 class="info-title">Web</h4>
+    </div>
+    <div class="col-xs-12 col-sm-3 info-item">
+      <img class="info-icon" src="images/letters.gif" alt="Letters">
+      <h4 class="info-title">Content/SEO</h4>
+    </div>
+  </div>
+  <div class="line"></div>
+
+  <!-- Partner Section -->
+  <div class="featured-work">
+    <div class="featured-text">
+      <h1>FEATURED WORK</h1>
+    </div>
+    <div class="featured-box">
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/nexen.jpg" alt="Nexen Tire">
+        <h6>NEXEN TIRE</h6>
+        <p>Branding. Print. Web. SEO. Mobile.</p>
+      </div>
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/rotary.jpg" alt="Rotary Club of LA">
+        <h6>ROTARY CLUB OF LA</h6>
+        <p>Branding. Print. Social. Web. Newsletters. Mobile.</p>
+      </div>
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/le.jpg" alt="L&E Research">
+        <h6>L&E RESEARCH</h6>
+        <p>Branding. Print. Web. SEO. Newsletters.</p>
+      </div>
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/momo.jpg" alt="Momo">
+        <h6>MOMO</h6>
+        <p>Web. SEO. Mobile.</p>
+      </div>
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/hudson.jpg" alt="Hudson">
+        <h6>HUDSON LUXE URBAN LIVING</h6>
+        <p>Web. SEO. Mobile. Newsletters.</p>
+      </div>
+      <div class="featured-card">
+        <img class="featured-logo" src="logos/jumpstart.jpg" alt="Jumpstart">
+        <h6>JUMPSTART FOR CHILDREN</h6>
+        <p>Web. Mobile. Newsletters.</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+</body>
+</html>
